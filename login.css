@@ -1,10 +1,12 @@
 body{
     background: url("../assets/images/bg_login.jpg") no-repeat fixed;
     /* set background tensile */
-    background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    margin: 0;
-    padding: 0;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    margin: 0px;
+    padding: 0px;
 }
 
 #content{
