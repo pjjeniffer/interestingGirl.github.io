@@ -49,8 +49,17 @@ table td {
 }
 
 /*footer*/
-
-#footer {
+#footer{
+position:relative;
+font-size:12px;
+width:auto;
+min-width:120px;
+margin:0px 210px 20px 180px;
+padding:10px;
+z-index:3;
+text-align:center;
+}
+/*#footer {
     position: relative;
     font-size: 12px;
     width: auto;
@@ -61,8 +70,15 @@ table td {
     text-align: center;
     background-color: bisque;
     color: brown;
+}*/
+body{
+    background: url("../../bground1.jpg") no-repeat fixed;
+    /* set background tensile */
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
 }
-
 /*#footer {
     position: relative;
     background-color: bisque;
