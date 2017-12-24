@@ -74,8 +74,9 @@ text-align:center;
 
 *body{
 
-    background: url("bg4.jpg") no-repeat fixed;
-    /* set background tensile */
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
     background-size: 100% 100%;
 }
 
