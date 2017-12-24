@@ -2,9 +2,9 @@ body{
     background: url("..bground1.jpg") no-repeat fixed;
     /* set background tensile */
     background-size: cover;
-    /*-moz-background-size: cover;
+    -moz-background-size: cover;
     -webkit-background-size:cover;
-    -o-background-size:cover;*/
+    -o-background-size:cover;
     margin: 0px;
     padding: 0px;
 }
